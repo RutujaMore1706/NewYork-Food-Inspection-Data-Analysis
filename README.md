@@ -15,3 +15,22 @@ DOHMH New York City Restaurant Inspection Results by NYC OpenData
 
 * Dataset - [OpenData](https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j)
 * Data Dictionary - [Excel](https://data.cityofnewyork.us/api/views/43nn-pn8j/files/ec33d2c8-81f5-499a-a238-0213a38239cd?download=true&filename=RestaurantInspectionDataDictionary_09242018.xlsx)
+
+
+## Data Model
+![image](Images/NewYorkFoodInspection_DimensionalModel.png)
+
+List of dimension and fact tables 
+
+|        **Dimension**       |              **Fact**             |
+|:--------------------------:|:---------------------------------:|
+| dim_geography            | fct_inspections          |
+| dim_violation           | fct_score |
+| dim_restaurant          |                                   |
+| dim_date           |                                   |
+
+# Data Loading
+
+
+
+<img src=Images/NewYorkFoodInspection_RutujaMore.png width="90%" height="50%">
